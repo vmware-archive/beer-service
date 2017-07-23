@@ -1,0 +1,6 @@
+applications:
+- name: beer-service
+  instances: 1
+  memory: 1024M
+  path: target/beer-service-0.0.1-SNAPSHOT.jar
+  # random-route: true
